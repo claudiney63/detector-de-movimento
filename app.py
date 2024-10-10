@@ -69,6 +69,11 @@ class VideoMotionDetector:
         cv2.namedWindow('Detecta Movimento com Efeito Colorido', cv2.WINDOW_NORMAL)
         cv2.moveWindow('Detecta Movimento com Efeito Colorido', x_position, y_position)
 
+    def count_frames(self):
+        """Conta o número total de frames no vídeo."""
+        total_frames = int(self.cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        print(f"Total de frames no vídeo: {total_frames}")
+
         # Loop principal para reprodução e detecção
         while cv2.getWindowProperty('Detecta Movimento com Efeito Colorido', cv2.WND_PROP_VISIBLE) >= 1:
             # Verificar se o vídeo terminou
@@ -113,3 +118,4 @@ if __name__ == "__main__":
     video_path = 'video.mp4'
     detector = VideoMotionDetector(video_path, save_interval=50)  # Salva a cada 50 frames
     detector.start_detection()
+    detector.count_frames()
