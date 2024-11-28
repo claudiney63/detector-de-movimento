@@ -4,9 +4,9 @@ Este repositório contém as implementações das atividades práticas relaciona
 ## Parte 1: Detecção de Movimento por Histogramas
 
 Nesta etapa, foi desenvolvido um sistema que:
-  1 - Analisa o histograma de quadros consecutivos em uma sequência de cenas.
-  2 - Calcula as diferenças entre os histogramas para identificar regiões onde ocorreu movimento.
-  3 - Gera uma saída visual, destacando as áreas em que mudanças significativas foram detectadas.
+  - Analisa o histograma de quadros consecutivos em uma sequência de cenas;
+  - Calcula as diferenças entre os histogramas para identificar regiões onde ocorreu movimento;
+  - Gera uma saída visual, destacando as áreas em que mudanças significativas foram detectadas;
   
 ### Arquitetura
   - Entrada: Sequência de quadros ou frames de vídeo.
@@ -20,9 +20,9 @@ Nesta segunda etapa, o objetivo foi implementar um sistema mais avançado, basea
 
 ### Descrição
 O sistema:
-  1 - Estima o fluxo óptico entre pares de frames, utilizando métodos como Lucas-Kanade ou Horn-Schunck.
-  2 - Segmenta os objetos em movimento com base nos dados de magnitude e direção do fluxo.
-  3 - Gera uma imagem segmentada que ilustra os objetos detectados.
+  - Estima o fluxo óptico entre pares de frames, utilizando métodos como Lucas-Kanade ou Horn-Schunck;
+  - Segmenta os objetos em movimento com base nos dados de magnitude e direção do fluxo;
+  - Gera uma imagem segmentada que ilustra os objetos detectados;
   
 ### Arquitetura
   - Entrada: Sequência de quadros ou frames de vídeo.
