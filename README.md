@@ -1,7 +1,7 @@
 # Detecção de Movimento com Fluxo Óptico
 Este repositório contém as implementações das atividades práticas relacionadas à disciplina de Visão Computacional. As atividades exploram diferentes abordagens para a detecção de movimento em sequências de imagens. A seguir, são descritas as duas partes do trabalho.
 
-## Parte 1: Detecção de Movimento por Histogramas
+## Parte 1: Detecção de Movimento por Histogramas (app.py)
 
 Nesta etapa, foi desenvolvido um sistema que:
   - Analisa o histograma de quadros consecutivos em uma sequência de cenas;
@@ -15,7 +15,7 @@ Nesta etapa, foi desenvolvido um sistema que:
     - Cálculo da diferença entre histogramas para identificar alterações.
   - Saída: Imagem destacando as regiões com movimento e sinalizando um "alarme visual".
 
-## Parte 2: Detecção de Movimento com Fluxo Óptico
+## Parte 2: Detecção de Movimento com Fluxo Óptico (app2.py)
 Nesta segunda etapa, o objetivo foi implementar um sistema mais avançado, baseado no cálculo do fluxo óptico, para detectar e segmentar objetos em movimento.
 
 ### Descrição
